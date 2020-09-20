@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673ab7</color>
+    <color name="colorPrimaryDark">#320b86</color>
+    <color name="colorAccent">#9a67ea</color>
+    <color name="tableheader">#673ab7</color>
+    <color name="fab">#673ab7</color>
+    <color name="backgroundHouseAdapters">#40FFC7FF</color>
+    <color name="backgroundCounterAdapters">#40FFC7FF</color>
+    <color name="spinner">#cb96cc</color>
+    <color name="adaptersettingspanel">#9a67ea</color>
+
+    <color name="popUpWindow">#F0F0F5</color>
+    <color name="secondaryTextColor">@android:color/secondary_text_dark</color>
+    <color name="primaryTextColor">#0F0F0F</color>
+    <color name="error">#F00202</color>
+    <color name="link">#FF5722</color>
+
+    <color name="generalbackground">#0500BCD4</color>
+</resources>

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mkkabi.countersandyj.MainActivity">
+    <item
+        android:id="@+id/action_calculate"
+        android:icon="@drawable/calculator"
+        android:orderInCategory="100"
+        android:title="@string/calculate"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_export"
+        android:orderInCategory="100"
+        android:title="@string/action_export"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_import"
+        android:orderInCategory="100"
+        android:title="@string/action_import"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_export_to_gdrive"
+        android:orderInCategory="100"
+        android:title="@string/export_to_gdrive"
+        app:showAsAction="never" />
+
+</menu>

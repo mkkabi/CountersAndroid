@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Utilities accounting</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_counter">Counter Activity</string>
+    <string name="title_activity_house">House Activity</string>
+    <string name="counter">Counter</string>
+    <string name="counters_in_the_house">Counters in the Household:</string>
+    <string name="todo">TODO</string>
+    <string name="rate">Utility rate:</string>
+    <string name="counter_image_description">Counter icon image</string>
+    <string name="calculate">Calculate</string>
+    <string name="previous_data">Previous Data:</string>
+    <string name="current_data">Current Data:</string>
+    <string name="account_number">Account #:</string>
+    <string name="counter_type">Counter Type:</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="household">Household</string>
+    <string name="save">Save</string>
+    <string name="action_canceled">Action canceled</string>
+    <string name="item_removed">Item removed</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="default_value">Default Value</string>
+    <string name="select_counter_type">Select Counter Type</string>
+    <string name="you_can_change_household">You can change Household</string>
+    <string name="name">Name</string>
+    <string name="delete_image">Delete image</string>
+    <string name="household_icon">Household icon</string>
+    <string name="edit">Edit</string>
+    <string name="total_counters">Total Counters</string>
+    <string name="more_options">More Options</string>
+    <string name="water">Cold Water</string>
+    <string name="gas">Gas</string>
+    <string name="electricity">Electricity</string>
+    <string name="trash">Trash</string>
+    <string name="hotwater">Hot Water</string>
+    <string name="daynight">Day-Night</string>
+    <string name="missing_field_value">Forgot to fill in required fields?</string>
+    <string name="date">Date</string>
+    <string name="last_data">Last Data</string>
+    <string name="consumed">Consumed</string>
+    <string name="paid">Paid</string>
+    <string name="house_no_counters">You do not have any counters added to this household yet. To add a new counter press + menu button on the action bar</string>
+    <string name="house_no_houses">Start by creating a new household. Press the round button in the bottom corner of the screen</string>
+    <string name="textview">TextView</string>
+    <string name="wrong_item_selected">Wrong item selected</string>
+    <string name="sort_by_date">Sort by Date</string>
+    <string name="sort_by_previous">Sort by Previous Data</string>
+    <string name="sort_by_current">Sort by Last Data</string>
+    <string name="sort_by_consumed">Sort by consumed amount</string>
+    <string name="sort_by_payment">Sort by amount paid</string>
+    <string name="title_activity_add_counter">Add Counter</string>
+    <string name="add_another_tarif_step">Add another Tariff Threshold</string>
+    <string name="tarifs_instructions_text">Set number of calculation thresholds and prices. If your counter calculations are based on a single rate, you only need to enter price below</string>
+    <string name="starts_from">Starts from</string>
+    <string name="price">Price</string>
+    <string name="_add_a_new_tariff_threshold">Add a new Tariff Threshold</string>
+    <string name="action_import">Import</string>
+    <string name="action_export">Export</string>
+    <string name="file_saved">File saved to</string>
+    <string name="dummy_date">Year-Month-day</string>
+    <string name="decimal_format">0.00</string>
+    <string name="date_changed_to">Date changed to</string>
+    <string name="export_to_drive">Export to Drive</string>
+    <string name="export_to_gdrive">Export to GDrive</string>
+    <string name="action_import_from_gdrive">Import from Google Drive</string>
+    <string name="title_activity_edit_counter">Edit Counter</string>
+    <string name="daynight_instructions_text">The price of the Night tariff usually comes with a 50% discount. If your provider gives you a different
+        discount for the night time, please check the box below and enter the % of the discount for the night</string>
+    <string name="my_tariff_uses_different_for_night_price">I get a different % discount for the night</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_style">StyleActivity</string>
+    <string name="edit_cell">Edit Cell</string>
+    <string name="delete">Delete</string>
+    <string name="create_household">Create new Household</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="title_activity_counter_day_night">CounterDayNight</string>
+    <string name="delete_row">Delete Row</string>
+    <string name="previous_day">Prev Day</string>
+    <string name="previous_night">Prev. Night</string>
+    <string name="current_day">Curr. Day</string>
+    <string name="current_night">Curr. Night</string>
+    <string name="consumed_day">Day Consumption</string>
+    <string name="consumed_night">Night Consumption</string>
+    <string name="paid_regular_tariff">Regular Tariff Payment</string>
+    <string name="saved">Saved $</string>
+    <string name="calculation_day_night_fileheader">Date, Previous Day, Previous Night, Current Day, Current Night, Day Consumption, Night consumption, Payment with regular tariff, Savings, Actual Payment</string>
+    <string name="storage_permissions_explanation_message">Storage permissions required to export counter history into a csv file and save it on your phone storage</string>
+    <string name="create_new_counter">Create new Counter</string>
+    <string name="edit_counter">Edit Counter</string>
+    <string name="available_counters">Available Counters</string>
+    <string name="faq">FAQ</string>
+    <string name="save_counter">Save Counter</string>
+    <string name="calculation_header">Date,Previos Data, Current Data, Amount Consumed, Paid</string>
+    <string name="faq_text">
+        <b>1. How to start?</b>\n
+You need to start by creating a new Household.\n
+- The logic of the application design was built on an assumption that a user would need to managet counters for more than one apartment. Counters should be created and managed inside the household they are referenced to.\n
+\n
+<b>2. What is a Day-Night counter?</b>\n
+- This type of counter calculates your resource consumption during the day and the night time. Day-Night counter is usually used with a different tariff, where price for resources consumed during the night time is lower than during the day time.\n
+\n
+<b>3. Exporting and importing CSV backup files. </b>\n
+- First thing you need to remember is that backup files for Day-Night counter is different that a backup file for any other counter you can create and manage.\n
+\n
+- You can import any CSV and txt files that adhere to the following structure and requirements:\n
+First row of every importing file is skipped, since it usually contains table headers.\n
+The Day-Night import file should have the following rows and they should go in the following order:\n
+-Date,\n
+-prev data Day,\n
+-prev data Night,\n
+-current data Day,\n
+-current data Night,\n
+-day consumption,\n
+-night consumption,\n
+-regular tariff payment,\n
+-amount saved,\n
+-actual payment amount\n
+
+Import file for every other counter should have the following rows and they should go in the following order:\n
+-Date,\n
+-prev Data,\n
+-current Data,\n
+-amount consumed,\n
+-payment\n
+Export and import file should use , (comma) as a row separator
+</string>
+    <string name="last_consumption">Consumed:</string>
+    <string name="overall_spent">Overall $</string>
+    <string name="last_spending">Last $</string>
+    <string name="saved_total">Saved Total:</string>
+    <string name="last_day">Last Data Day</string>
+    <string name="last_night">Last Data Night</string>
+    <string name="google_services_authorization_canceled">Google services authorization canceled</string>
+    <string name="unable_to_sign_in">Unable to sign in</string>
+    <string name="file_uploaded">Successfully uploaded file:</string>
+    <string name="imported_lines">Number of imported lines:</string>
+    <string name="errors_importing_lines">Errors encountered on line #</string>
+    <string name="no_errors_found">No Errors found</string>
+    <string name="enter_of_price_for_night_tariff">Enter % of price for night Tariff</string>
+
+
+</resources>

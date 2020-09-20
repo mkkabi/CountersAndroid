@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Учет ЖКХ</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_counter">Счетчик</string>
+    <string name="title_activity_house">Домохозяйство</string>
+    <string name="counter">Счетчик</string>
+    <string name="counters_in_the_house">Счетчиков в этом доме:</string>
+    <string name="todo">TODO</string>
+    <string name="rate">Тариф:</string>
+    <string name="counter_image_description">Иконка счетчика</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="previous_data">Пр-е показания:</string>
+    <string name="current_data">Текущие показания:</string>
+    <string name="account_number">Лицевой №:</string>
+    <string name="counter_type">Тип счетчика:</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="household">Домохозяйство</string>
+    <string name="save">Сохранить</string>
+    <string name="action_canceled">Действие отменено</string>
+    <string name="item_removed">Элемент удален</string>
+    <string name="are_you_sure">Подтвердите удаление</string>
+    <string name="remove">Удалить</string>
+    <string name="cancel">Отменить</string>
+    <string name="enter_name">Введите название</string>
+    <string name="default_value">Название по умолчанию</string>
+    <string name="select_counter_type">Виберите тип счетчика</string>
+    <string name="you_can_change_household">Можно изменить домохозяйство</string>
+    <string name="name">Имя</string>
+    <string name="delete_image">Картинка удалить</string>
+    <string name="household_icon">Иконка домохозяйства</string>
+    <string name="edit">Редактировать</string>
+    <string name="total_counters">Всего счетчиков</string>
+    <string name="more_options">Дополнительно</string>
+    <string name="water">Холодная вода</string>
+    <string name="gas">Газ</string>
+    <string name="electricity">Электричество</string>
+    <string name="trash">Вывоз мусора</string>
+    <string name="hotwater">Горячая вода</string>
+    <string name="daynight">День-Ночь</string>
+    <string name="missing_field_value">Не все поля заполнены</string>
+    <string name="date">Дата</string>
+    <string name="last_data">Последние показания</string>
+    <string name="consumed">Потреблено</string>
+    <string name="paid">Оплата</string>
+    <string name="house_no_counters">Еше не добавлено ни одного счетчика в этом домохозяйстве. Чтобы добавить новый счетчик, нажмите + на верхней панеле.</string>
+    <string name="house_no_houses">Начните с добавления нового домозяйства для создания и добавления счетчиков. Для этого нажмите на кнопку внизу и введите название объекта</string>
+    <string name="textview">Текстовое поле</string>
+    <string name="wrong_item_selected">Выбран неправильный объект</string>
+    <string name="sort_by_date">Сортировать по дате</string>
+    <string name="sort_by_previous">Сортировать по пред. показаниям</string>
+    <string name="sort_by_current">Сортировать по последним показаниям</string>
+    <string name="sort_by_consumed">Сортировать по потребленному объему</string>
+    <string name="sort_by_payment">Сортировать по сумме платежа</string>
+    <string name="title_activity_add_counter">Добавить Счетчик</string>
+    <string name="add_another_tarif_step">Добавить новый порог тарифа</string>
+    <string name="tarifs_instructions_text">Установите количество порогов расчета и цену для каждого порога. Если Ваш тариф основан на единой ставке, вам нужно только ввести цену ниже</string>
+    <string name="starts_from">Начинается от</string>
+    <string name="price">Цена</string>
+    <string name="_add_a_new_tariff_threshold">Добавить новый ценовой порог</string>
+    <string name="action_import">Импортировать</string>
+    <string name="action_export">Экспортировать</string>
+    <string name="file_saved">Файл сохранен в </string>
+    <string name="dummy_date">Год-Месяц-День</string>
+    <string name="decimal_format">0.00</string>
+    <string name="date_changed_to">Дата изменена на </string>
+    <string name="export_to_drive">Экспорт в GDrive</string>
+    <string name="export_to_gdrive">Экспорт в GDrive</string>
+    <string name="action_import_from_gdrive">Импорировать из Google Drive</string>
+    <string name="title_activity_edit_counter">Редактировать счетчик</string>
+    <string name="daynight_instructions_text">Стоимость услег по ночному тарифу обычно составляет 50% от дневной цены. Если услуги предоставляются по другой цене, отметьте поле ниже и введите % скидки для ночного тарифа</string>
+    <string name="my_tariff_uses_different_for_night_price">У меня другой % скидки для ночного тарифа</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_style">StyleActivity</string>
+    <string name="edit_cell">Редактировать поле</string>
+    <string name="delete">Удалить</string>
+    <string name="create_household">Создать новое домохозяйство</string>
+    <string name="edit_name">Изменить Название</string>
+    <string name="title_activity_counter_day_night">Счетчик День-Ночь</string>
+    <string name="delete_row">Удалить строку</string>
+    <string name="previous_day">пред. День</string>
+    <string name="previous_night">пред. Ночь</string>
+    <string name="current_day">Текущие, день</string>
+    <string name="current_night">Текущие, ночь</string>
+    <string name="consumed_day">потреблено днем</string>
+    <string name="consumed_night">потреблено ночью</string>
+    <string name="paid_regular_tariff">Сумма по обычному тарифу</string>
+    <string name="saved">Экономия</string>
+    <string name="calculation_day_night_fileheader">Дата, пред. День, пред. Ночь, текущие День, текущие ночь, потреблено День, потреблено Ночь, оплата по обычному тарифу, Экономия, Платеж</string>
+    <string name="storage_permissions_explanation_message">Разрешение на чтение/запись необходимо для импорта/экспорта истории в csv файл</string>
+    <string name="create_new_counter">Создать новый счетчик</string>
+    <string name="edit_counter">Редактировать счетчик</string>
+    <string name="available_counters">Доступные счетчики</string>
+	<string name="faq">FAQ</string>
+    <string name="save_counter">Сохранить</string>
+    <string name="calculation_header">Дата, Предыдущие данные, Текущие данные, Потреблено, Оплачено</string>
+    <string name="faq_text">
+	<b>1. С чего начать?</b>\n
+Вам нужно начать с создания нового домохозяйства. \n
+- Логика приложения основана на предположении, что пользователю может потребоваться управлять счетчиками для более чем одной квартиры. Счетчики должны создаваться и управляться внутри домохозяйства, на которое они ссылаются. \n
+\n
+<b> 2. Что такое счетчик день-ночь? </b>\n
+- Этот тип счетчика рассчитывает потребление ресурсов в дневное и ночное время. Счетчик «День-Ночь» обычно используется с другим тарифом, где цена ресурсов, потребляемых в ночное время, ниже, чем в дневное время. \n
+\n
+<b> 3. Экспорт и импорт файлов резервных копий CSV. </b>\n
+- Первое, что вам нужно запомнить, это то, что файлы резервных копий для счетчиков «день-ночь» отличаются от файлов резервных копий для любого другого счетчика, который вы можете создавать. \n
+\n
+- Вы можете импортировать любые файлы CSV и TXT, которые соответствуют следующей структуре и требованиям: \n
+Первая строка каждого импортируемого файла пропускается, так как обычно в ней содержится заголовки таблицы. \n
+Файл импорта «День-Ночь» должен иметь следующие строки, которые должны располагаться в следующем порядке: \n
+-Дата,\n
+-предыдущие показания День,\n
+-предыдущие показания ночь,\n
+-текущие показания День,\n
+-текущие показания ночь,\n
+-потреблено днем,\n
+-потреблено ночью,\n
+-сумма оплаты по обычному тарифу,\n
+-сэкономленная сумма,\n
+-сумма платежа\n
+        \n
+Файл импорта для других счетчиков должен иметь следующие строки, расположенные в следующем порядке: \n
+-Дата,\n
+-Предыдущие данные,\n
+-текущие данные,\n
+-потреблено,\n
+-Оплата\n
+В качестве разделителя столбцов используется символ , (запятая)\n
+</string>
+	<string name="last_consumption">потреблено:</string>
+    <string name="overall_spent">платежей:</string>
+    <string name="last_spending">посл. платеж:</string>
+    <string name="saved_total">Сэкономлено:</string>
+    <string name="last_day">показания день</string>
+    <string name="last_night">Показания ночь</string>
+    <string name="google_services_authorization_canceled">Авторизация Google сервисов отменена</string>
+    <string name="unable_to_sign_in">Не получилось авторизоваться</string>
+    <string name="file_uploaded">Загружен файл:</string>
+    <string name="imported_lines">Импортировано строк:</string>
+    <string name="errors_importing_lines">Ошибки при импорте в строках #</string>
+    <string name="no_errors_found">Ошибок не онаружено</string>
+    <string name="enter_of_price_for_night_tariff">Введите % от дневного тарифа</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+

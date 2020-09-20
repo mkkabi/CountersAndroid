@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.billy.android.swipe.SmartSwipeWrapper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_ui_wrap_view2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_house_adapter_bottom"
+    android:background="@color/backgroundCounterAdapters"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrainedCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/counterImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/counter_image_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/counterTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintStart_toEndOf="@+id/counterImage"
+            app:layout_constraintTop_toTopOf="@+id/counterImage" />
+
+        <TextView
+            android:id="@+id/accountNumberTextHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/account_number"
+            app:layout_constraintStart_toStartOf="@+id/counterTypeText"
+            app:layout_constraintTop_toBottomOf="@+id/counterTypeText" />
+
+        <TextView
+            android:id="@+id/accountNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            app:layout_constrainedWidth="false"
+            app:layout_constraintStart_toStartOf="@+id/accountNumberTextHeading"
+            app:layout_constraintTop_toBottomOf="@+id/accountNumberTextHeading" />
+
+        <TextView
+            android:id="@+id/overallSpentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overall_spent"
+            app:layout_constraintEnd_toStartOf="@+id/overallSpentTextValue"
+            app:layout_constraintTop_toTopOf="@+id/counterTypeText" />
+
+        <TextView
+            android:id="@+id/overallSpentTextValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lastPaymentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last_spending"
+            app:layout_constraintEnd_toEndOf="@+id/overallSpentTextView"
+            app:layout_constraintTop_toBottomOf="@+id/overallSpentTextView" />
+
+        <TextView
+            android:id="@+id/lastPaymentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/lastPaymentText" />
+
+        <TextView
+            android:id="@+id/lastDataText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last_consumption"
+            app:layout_constraintEnd_toEndOf="@+id/lastPaymentText"
+            app:layout_constraintTop_toBottomOf="@+id/lastPaymentText" />
+
+        <TextView
+            android:id="@+id/lastDataValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/lastDataText" />
+
+        <TextView
+            android:id="@+id/savedTotalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saved_total"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/lastDataText"
+            app:layout_constraintTop_toTopOf="@+id/savedTotalValue" />
+
+        <TextView
+            android:id="@+id/savedTotalValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/primaryTextColor"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastDataValue" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/adaptersettingspanel"
+        app:swipe_gravity="right|left">
+
+        <ImageView
+            android:id="@+id/deleteCounterImage"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:contentDescription="@string/delete_image"
+            android:focusable="true"
+            android:padding="5dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/delete" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/backgroundCounterAdapters" />
+
+        <ImageView
+            android:id="@+id/editCounterImage"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:contentDescription="@string/edit"
+            android:focusable="true"
+            android:padding="5dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/edit" />
+
+    </LinearLayout>
+</com.billy.android.swipe.SmartSwipeWrapper>

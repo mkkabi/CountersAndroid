@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/item_img">
+
+        <bitmap  android:src="@drawable/shadow_50x50_padding5" />
+    </item>
+
+    <item android:id="@+id/background" >
+        <shape android:shape="rectangle">
+            <solid android:color="@color/backgroundHouseAdapters"/>
+        </shape>
+    </item>
+
+
+
+</layer-list>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mkkabi.countersandyj.MainActivity">
+
+    <item
+        android:id="@+id/action_create_new"
+        android:icon="@drawable/addhouse"
+        android:orderInCategory="100"
+        android:title="@string/create_household"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_faq"
+        android:orderInCategory="100"
+        android:title="@string/faq"
+        app:showAsAction="never" />
+</menu>
